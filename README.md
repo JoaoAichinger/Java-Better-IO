@@ -162,6 +162,8 @@ B_IO io = new B_IO("ISO-8859-1");
 
 -   `static void print(Object obj)`\
     Prints any object to the console.
+-   `static void println(Object obj)`\
+    Prints any object to the console with "\n".
 
 ------------------------------------------------------------------------
 
