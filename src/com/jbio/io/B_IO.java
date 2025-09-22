@@ -116,11 +116,11 @@ public class B_IO{
 
 //Reading Chars
 
-    public static Char readChar() throws IOException {
-        return br.readLine();
+    public static char readChar() throws IOException {
+        return (char)br.read();
     }//end readString
 
-    public static Char readChar(String prompt) throws IOException {
+    public static char readChar(String prompt) throws IOException {
         print(prompt);
         return readChar();
     }//end readChar
